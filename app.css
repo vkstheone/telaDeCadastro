@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 0;
+}
+
+
+body{
+    height: 100vh;
+    background-color: #E2CE1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;;
+}
+
+.tela{
+    width: 944px;
+    height: 555px;
+    border: 1px solid;
+    display: flex;
+
+}
+
+.tela-logo{
+    width: 304px;
+    background-color: #36320A;
+    padding: 50px;
+}
+
+.logo{
+    margin-top: 120px;
+}
+
+.logo h3{
+    color: #fff;
+    font-size: 26px;
+
+}
