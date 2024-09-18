@@ -1,6 +1,7 @@
 
 function App() {
   
+ 
 
   return (
       <div className="tela">
@@ -14,7 +15,7 @@ function App() {
           </div>
 
           <div className="button">
-            <button>Entrar</button>
+            <button>ENTRAR</button>
             <a href="#"> Esqueci minha senha</a>
           </div>
         </div>

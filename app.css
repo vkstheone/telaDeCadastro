@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     min-height: 0;
+    font-family: "Poppins", sans-serif;;
 }
 
 
@@ -12,7 +13,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Poppins", sans-serif;;
 }
 
 .tela{
@@ -31,10 +31,38 @@ body{
 
 .logo{
     margin-top: 120px;
+    gap: 10px;
+    margin-bottom: 70px;
 }
 
 .logo h3{
     color: #fff;
     font-size: 26px;
+    margin-bottom: 10px;
+}
+.logo p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+.button button{
+    color: #fff;
+    border:5px solid #fff;
+    background-color: #36320A;
+    padding: 20px 30px;
+    border-radius: 50px;
+    width: 192px;
+    margin-bottom: 04px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.button a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
 }
